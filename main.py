@@ -6,7 +6,7 @@ from func import is_message_from_guild, is_message_from_channel, Colours
 
 from game import Game
 
-TOKEN = dotenv.get_key('.env', 'ODMxMjUwODEwNjcwMjg0ODIx.YHSgpQ.jvs54lNkQSpsjt3cJez2Xtu38wA')
+TOKEN = dotenv.get_key('.env', 'TOKEN')
 GUILD_ID = 831251799700275231
 
 logging.basicConfig(level=logging.INFO, filename='discord.log',
